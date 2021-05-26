@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web-header.css">
+    <link rel="stylesheet" href="grid-section-box.css">
+    <link rel="stylesheet" href="products-list.css">
+    <link rel="stylesheet" href="add-to-cart-btn.css">
+    <link rel="stylesheet" href="web-cart.css">
+    <link rel="stylesheet" href="cateogory-menu.css">
+    <title>Lending page</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        body {
+
+            color: white;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400
+        }
+
+       
+
+       
+
+        .menu-content>ul>li{
+            list-style: none;
+        }
+
+   
+
+
+
+
+
+
+        /* .inside {
+            background: url("https://images.pexels.com/photos/3769120/pexels-photo-3769120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center/cover;
+            height: 190px;
+            width: 100%;
+        } */
+
+        
+
+
+        /* card view */
+
+        /* .cateogory-list-box-items {
+            display: flex;
+            background-color: teal;
+            color: white;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            height: 35px;
+            font-weight: 600;
+
+        }
+        */
+  
+        .menu-arrow{
+            background-image: url("arrow_sign.png");
+        }
+
+        .menu-items{
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .menu-items img{
+            max-width: 100%;
+            max-height:11px;
+            margin-left: 20px;
+        }
+
+        .active{
+            background-color: #c1c1c1;
+           
+        }
+
+
+           
+
+            
+            
+            
+      
+        ul li:hover{
+            background: #c1c1c1;
+            margin: 0px;
+        }
+
+        
+
+     
+
+     
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- full-box -->
+        <section class="web-catalog">
+
+            <!-- Top-Box -->
+            <section class="web-header">
+
+                <div class="web-header_container">
+
+                    <div class="web-header_box1">
+                        <div class="store-logo" alt="Mobi care">
+
+                            <img src="mobicarelogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="web-header_box">
+                        <span class="store-name">Mobi-Care</span>
+                        <div class="web-header-address">
+                            <img class="web-address-icon" src="storeicon.png" alt="">
+                            <span class="web-adress-text">Paras ram nagar Main road Bathinda (Punjab)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="web-header_container">
+                    <div class="web-header_box">
+                        <span class="cutomercontact-button">
+                            <img src="calliconwhite.png" alt="">
+                            77107-70789
+                        </span>
+                    </div>
+
+                    <div class="web-header_box">
+                        <span class="my-orders_button">
+                            <img src="orderlist.png" alt="">
+                            My Orders
+                        </span>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="layout-after-box">
+                <section class="section-for-cateogory">
+                    <div class="gap-boxfor-cateogory"></div>
+                    <div class="cateogory-box">
+                        <div class="cateogories-title">CATEGORIES</div>
+                        <div class="cateogory-list-box">
+                            <!-- <div class="cateogory-list-box-items">Trending</div> -->
+                            
+                            
+                            <div id="menu-content">
+                                <ul class="menu-list-products">
+                                   
+                                        <div class="listing">Trending</div>
+                                    
+                                    <li class="seller-li">
+                                        <a href="lending pge.html" class="menu-item">Best sellers</a>
+                                    </li>
+                                    <li class="seller-li">
+                                        <a href="new-releases.html" class="menu-item">New Releases</a>
+                                    </li>
+
+                                  
+                                    <li class="menu-seprator">
+
+                                    </li>
+
+                                    <div class="listing">All mobile accessories</div>
+
+
+                                </li>
+                                <li class="seller-li">
+                                    <a href="backcover.html" class="menu-item active" data-ref-tag="">
+                                        <div class="menu-items">Back-cover
+                                            <img src="arrow_sign.png" alt="">
+                                        </div>
+                                        
+                                    </a>
+                                </li>
+                                <li class="seller-li">
+                                    <a href="Glass-Guard.html" class="menu-item">
+                                        <div class="menu-items">Glass-Gaurds
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+                                <li class="seller-li">
+                                    <a href="wired-headphones.html" class="menu-item">
+                                        <div class="menu-items">Wired-Headphones
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+                                <li class="seller-li">
+                                    <a href="wireless-headphone.html" class="menu-item">
+                                        <div class="menu-items">Wireless-Headphones
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="seller-li">
+                                    <a href="bluetooth-speakers.html" class="menu-item">
+                                        <div class="menu-items">Bluetooth speakers
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="seller-li">
+                                    <a href="Mobile-charger.html" class="menu-item">
+                                        <div class="menu-items">Mobile-Charger
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+                                <li class="seller-li">
+                                    <a href="Pendrive.html" class="menu-item">
+                                        <div class="menu-items">Pendrive
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <!-- <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Sd-card 
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li> -->
+
+                                <li class="menu-seprator">
+
+                               </li>
+
+                            </li>
+
+                            <div class="listing">Shop Electronics</div>
+
+
+                                <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Mobile, Computers
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Tv, Appliances, Electronics
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                </ul>
+
+                            </div>
+
+                        
+                    </div>
+                </div>
+
+
+                </section>
+
+                <section class="section-for-cateogory">
+                    <div class="search-box">
+                        <img src="search_icon.png" alt="">
+                        <span class="search-box-title">Search for item</span>
+                    </div>
+
+                    <div class="product-catalog-list">
+
+                        <div class="product-list-box">
+                            <div class="product-list-box-title">Mobile Back-covers</div>
+
+                            <div class="mobile-list-body">
+
+                                <!-- Entering into the card view0 -->
+                                <div class="card-view">
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/61ApWDgHLZL._SL1500_.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">AE MOBILE ACCESSORIES Smoke Translucent Shock Proof Smooth Rubberized Matte Hard Back Case Cover for Samsung A51 (Black)</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 279</span>
+                                                        <span class="amount-price">₹ 999</span>
+
+                                                    </div>
+                                                </span>
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/41FiI85ocDL.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Clapcart Customized / Personalized Mobile Back Cover Polycarbonate Hard Plastic Case Your Own Photos & Messages Customized on Your Mobile Back Cover (Multicolor)</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 259</span>
+                                                        <span class="amount-price">₹ 499</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/31xUQjuflWS.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Monkish Shockprof Smoke Case Cover with Camera Protection for One Plus 6T/1+6T (Black</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 279</span>
+                                                        <span class="amount-price">₹ 999</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/61Szk1BfmlL._SL1100_.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">
+                                                
+                                            Solimo Mobile Cover for Samsung Galaxy M12 (Soft & Shockproof Back Case with inbuilt Cushioned Edges), Transparent</div>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 99</span>
+                                                        <span class="amount-price">₹ 399</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/61rkQgYezAL._SL1100_.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Fashionury Back Cover for Samsung Galaxy F62 (Flexible|Silicone|Transparent</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 135</span>
+                                                        <span class="amount-price">₹ 399</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/71QBAtp536S._SL1500_.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Golden Sand for Samsung Galaxy M42 Back Cover Shockproof Aramid Carbon Fibre Rugged TPU Case for Samsung M42 5G Mobile Phone/Galaxy A42, Mystic Blue
+                                            </div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 599</span>
+                                                        <span class="amount-price">₹ 1199</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/31ps0cXd8oL.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Alkey Ultra Hybrid Mobile Back Cover Case Compatible Scratch Proof for Mobile</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 499</span>
+                                                        <span class="amount-price">₹ 999</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/71QBAtp536S._SL1500_.jpg"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">
+                                                Click to open expanded view
+                                                BuyFeb Transparent Mobile Back Cover Case Compatible for Samsung M42 & Samsung Galaxy M42 5G</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 149</span>
+                                                        <span class="amount-price">₹ 999</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <section class="section-for-cateogory">
+                    <div class="gap-boxfor-cateogory"></div>
+                    <div class="cateogory-box">
+                        <div class="cart-btn-title">Empty Cart</div>
+                        <div class="cart-body">
+                            <div class="cart-body-box">
+                                <div class="cart-image">
+                                    <img src="shopping cart.png" alt="">
+                                </div>
+                                <div class="a-line"></div>
+                                <div class="empty-text-for-cart">
+                                    <p>Your Cart is Empty,Go ahead and add
+                                        something to the cart
+                                    </p>
+                                    <p>or</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="create-list-box">
+                            <div class="create-list">
+                                <div class="have-something-in-mind_box">
+                                    <div class="have-something-in-mind">
+                                        <span>Have something in mind?</span>
+                                        <span>Make a list of items you need</span>
+                                    </div>
+                                </div>
+                                <div class="list-btn">
+                                    <button class="create-list-btn">Create List</button>
+                                </div>
+                            </div>
+                            <img src="ideapic.png" alt="create list item">
+
+                        </div>
+                    </div>
+                    <div class="choice-btn">
+                        <div class="Pick-up-btn">
+                            <button class="pickup">I will Pick up</button>
+                        </div>
+
+                        <div class="delievery-btn">
+                            <button class="delievery">Deliever This</button>
+                        </div>
+
+                    </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+    </div>
+
+    </header>
+    </div>
+
+</body>
+
+</html>

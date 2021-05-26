@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web-header.css">
+    <link rel="stylesheet" href="grid-section-box.css">
+    <link rel="stylesheet" href="products-list.css">
+    <link rel="stylesheet" href="add-to-cart-btn.css">
+    <link rel="stylesheet" href="web-cart.css">
+    <link rel="stylesheet" href="cateogory-menu.css">
+    <title>Lending page</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        body {
+
+            color: white;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400
+        }
+
+       
+
+       
+
+        .menu-content>ul>li{
+            list-style: none;
+        }
+
+   
+
+
+
+
+
+
+        /* .inside {
+            background: url("https://images.pexels.com/photos/3769120/pexels-photo-3769120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center/cover;
+            height: 190px;
+            width: 100%;
+        } */
+
+        
+
+
+        /* card view */
+
+        /* .cateogory-list-box-items {
+            display: flex;
+            background-color: teal;
+            color: white;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            height: 35px;
+            font-weight: 600;
+
+        }
+        */
+  
+        .menu-arrow{
+            background-image: url("arrow_sign.png");
+        }
+
+        .menu-items{
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .menu-items img{
+            max-width: 100%;
+            max-height:11px;
+            margin-left: 20px;
+           
+
+            
+            
+            
+        }
+      
+        ul li:hover{
+            background: #c1c1c1;
+            margin: 0px;
+        }
+         
+        .active{
+            background-color: #c1c1c1;
+            color: #fff;
+        }
+        
+
+     
+
+     
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- full-box -->
+        <section class="web-catalog">
+
+            <!-- Top-Box -->
+            <section class="web-header">
+
+                <div class="web-header_container">
+
+                    <div class="web-header_box1">
+                        <div class="store-logo" alt="Mobi care">
+
+                            <img src="mobicarelogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="web-header_box">
+                        <span class="store-name">Mobi-Care</span>
+                        <div class="web-header-address">
+                            <img class="web-address-icon" src="storeicon.png" alt="">
+                            <span class="web-adress-text">Paras ram nagar Main road Bathinda (Punjab)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="web-header_container">
+                    <div class="web-header_box">
+                        <span class="cutomercontact-button">
+                            <img src="calliconwhite.png" alt="">
+                            77107-70789
+                        </span>
+                    </div>
+
+                    <div class="web-header_box">
+                        <span class="my-orders_button">
+                            <img src="orderlist.png" alt="">
+                            My Orders
+                        </span>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="layout-after-box">
+                <section class="section-for-cateogory">
+                    <div class="gap-boxfor-cateogory"></div>
+                    <div class="cateogory-box">
+                        <div class="cateogories-title">CATEGORIES</div>
+                        <div class="cateogory-list-box">
+                            <!-- <div class="cateogory-list-box-items">Trending</div> -->
+                            
+                            
+                            <div id="menu-content">
+                                <ul class="menu-list-products">
+                                   
+                                        <div class="listing">Trending</div>
+                                    
+                                    <li class="seller-li">
+                                        <a href="lending pge.html" class="menu-item">Best sellers</a>
+                                    </li>
+                                    <li class="seller-li">
+                                        <a href="new-releases.html" class="menu-item">New Releases</a>
+                                    </li>
+
+                                  
+                                    <li class="menu-seprator">
+
+                                    </li>
+
+                                    <div class="listing">All mobile accessories</div>
+
+
+                                </li>
+                                <li class="seller-li">
+                                    <a href="backcover.html" class="menu-item" data-ref-tag="">
+                                        <div class="menu-items">Back-cover
+                                            <img src="arrow_sign.png" alt="">
+                                        </div>
+                                        
+                                    </a>
+                                </li>
+                                <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Glass-Gaurds
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+                                <li class="seller-li">
+                                    <a href="wired-headphones.html" class="menu-item">
+                                        <div class="menu-items">Wired-Headphones
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+                                <li class="seller-li">
+                                    <a href="wireless-headphone.html" class="menu-item">
+                                        <div class="menu-items">Wireless-Headphones
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="seller-li">
+                                    <a href="bluetooth-speakers.html" class="menu-item">
+                                        <div class="menu-items">Bluetooth speakers
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="seller-li">
+                                    <a href="Mobile-charger.html" class="menu-item">
+                                        <div class="menu-items">Mobile-Charger
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+                                <li class="seller-li">
+                                    <a href="Pendrive.html" class="menu-item active">
+                                        <div class="menu-items">Pendrive
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <!-- <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Sd-card 
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li> -->
+
+                                <li class="menu-seprator">
+
+                               </li>
+
+                            </li>
+
+                            <div class="listing">Shop Electronics</div>
+
+
+                                <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Mobile, Computers
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="seller-li">
+                                    <a href="" class="menu-item">
+                                        <div class="menu-items">Tv, Appliances, Electronics
+                                            <img src="arrow_sign.png" alt="">
+                                            </div>
+                                    </a>
+                                </li>
+
+
+                                </ul>
+
+                            </div>
+
+                        
+                    </div>
+                </div>
+
+
+                </section>
+
+                <section class="section-for-cateogory">
+                    <div class="search-box">
+                        <img src="search_icon.png" alt="">
+                        <span class="search-box-title">Search for item</span>
+                    </div>
+
+                    <div class="product-catalog-list">
+
+                        <div class="product-list-box">
+                            <div class="product-list-box-title">Secondary Storage Pendrive</div>
+
+                            <div class="mobile-list-body">
+
+                                <!-- Entering into the card view0 -->
+                                <div class="card-view">
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="sandish-pendrive.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">SanDisk Ultra Dual Drive Luxe Type C Flash Drive 128GB, 5Y - SDDDC4-128G-I35</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 1,499</span>
+                                                        <span class="amount-price">₹ 1,999</span>
+
+                                                    </div>
+                                                </span>
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="sandisk.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">SanDisk Cruzer Blade SDCZ50-016G-135 16GB USB 2.0 Pen Drive</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 350</span>
+                                                        <span class="amount-price">₹ 599</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="hp-pendrive.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">
+                                                HP FD236W 32GB USB 2.0 Pen Drive (Gray)
+                                            </div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 500</span>
+                                                        <span class="amount-price">₹ 699</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="sandisk-pendrive.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">
+                                                Click to open expanded view
+                                                SanDisk Cruzer Force USB Flash Drive, CZ71 32GB, USB2.0, Durable Metal Casing, 5Y</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 399</span>
+                                                        <span class="amount-price">₹ 700</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="sandisk-brown.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">SanDisk SDDD3-032G-I35GW Ultra Dual 32GB USB 3.0 OTG Pen Drive (Gold)</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 500</span>
+                                                        <span class="amount-price">₹ 950</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="stortium-pendrive.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Strontium Pollex 8GB USB Pen Drive (Black/Red)</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 450</span>
+                                                        <span class="amount-price">₹ 950</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="hp-sky-blue-pendrive.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">HP v150w 32GB USB 2.0 flash Drive (Blue)</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 359</span>
+                                                        <span class="amount-price">₹ 700</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                    <article class="product-view">
+                                        <div class="product-image">
+                                            <img src="sandisk-16gb-pendrive.png"
+                                                alt="">
+                                        </div>
+
+                                        <div class="productinfo">
+                                            <div class="productinfoname">Cybertronion USB 2.0 pendrive 16 gb for pc and Smartphones</div>
+                                            <div class="productbuyoptions">
+
+                                                <span>
+                                                    <div class="product-price">
+                                                        <span class="discount-price">₹ 299</span>
+                                                        <span class="amount-price">₹ 599</span>
+
+                                                    </div>
+                                                </span>
+
+                                                <span>
+                                                    <div class="cart-button">
+                                                        <div class="button-shoping">
+                                                            <span>Add</span>
+                                                            <img src="plus_sign.png" alt="item adding symbol">
+
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </article>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <section class="section-for-cateogory">
+                    <div class="gap-boxfor-cateogory"></div>
+                    <div class="cateogory-box">
+                        <div class="cart-btn-title">Empty Cart</div>
+                        <div class="cart-body">
+                            <div class="cart-body-box">
+                                <div class="cart-image">
+                                    <img src="shopping cart.png" alt="">
+                                </div>
+                                <div class="a-line"></div>
+                                <div class="empty-text-for-cart">
+                                    <p>Your Cart is Empty,Go ahead and add
+                                        something to the cart
+                                    </p>
+                                    <p>or</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="create-list-box">
+                            <div class="create-list">
+                                <div class="have-something-in-mind_box">
+                                    <div class="have-something-in-mind">
+                                        <span>Have something in mind?</span>
+                                        <span>Make a list of items you need</span>
+                                    </div>
+                                </div>
+                                <div class="list-btn">
+                                    <button class="create-list-btn">Create List</button>
+                                </div>
+                            </div>
+                            <img src="ideapic.png" alt="create list item">
+
+                        </div>
+                    </div>
+                    <div class="choice-btn">
+                        <div class="Pick-up-btn">
+                            <button class="pickup">I will Pick up</button>
+                        </div>
+
+                        <div class="delievery-btn">
+                            <button class="delievery">Deliever This</button>
+                        </div>
+
+                    </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+    </div>
+
+    </header>
+    </div>
+
+</body>
+
+</html>

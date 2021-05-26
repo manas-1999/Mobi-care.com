@@ -1,0 +1,39 @@
+.cart-button {
+    background: #fff;
+    border: .8000000119px solid #bfbebe;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    height: 27px;
+    width: 70px;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+}
+
+.cart-button img {
+    display: inline;
+    max-width: 12px;
+}
+
+.button-shoping>span {
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

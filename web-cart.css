@@ -1,0 +1,179 @@
+
+
+.cart-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cart-body-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.cart-btn-title {
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: .95px;
+    color: #000;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px 15px 0 0;
+}
+
+.create-list-box {
+    background-color: #fff6c1;
+    border-radius: 0 0 15px 15px;
+    padding: 10px 10px 0;
+    height: 172px;
+    border: 1px solid #ffec83;
+    cursor: pointer;
+}
+
+.empty-text-for-cart>:last-child {
+    font-size: 17px;
+    letter-spacing: .35px;
+    color: #008081;
+    font-weight: 700;
+}
+
+.empty-text-for-cart>p:first-child {
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.a-line {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.cart-image>img {
+    max-width: 100%;
+    max-height: 160px;
+}
+
+.cart-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 10px 20px;
+    align-items: center;
+
+}
+
+
+.create-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.have-something-in-mind>span {
+    color: black;
+}
+
+.have-something-in-mind_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.have-something-in-mind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.have-something-in-mind_box:first-child span:first-child {
+    letter-spacing: .36px;
+    font-size: normal normal normal 12px Montserrat;
+    color: #202431;
+    margin-bottom: 8px;
+}
+
+.have-something-in-mind_box:first-child span:last-child {
+    font: normal normal 600 12px Montserrat;
+    letter-spacing: .36px;
+    color: #202431;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+/* .create-list-btn{
+  
+} */
+.create-list-btn{
+    max-width: 100%;
+    padding: 4px 2px;
+    background: transparent;
+    color:#008081;
+    border:1px solid #008081;
+    font-size:16px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    border-radius: 50px;
+}
+.list-btn>button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.create-list-box img{
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.choice-btn{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 15px;
+}
+
+.Pick-up-btn{
+    width: 50%;
+    padding: 0 5px;
+    margin-top: 15px;
+}
+.Pick-up-btn>button{
+    font-size:16px;
+    padding:18px;
+}
+.pickup{
+    border: 1px solid #008081;
+    background-color: #fff;
+    border-radius:30px;
+    color:#008081;
+    font-weight:600;
+    width:100%;
+    cursor: pointer;
+}
+.delievery-btn{
+    width: 50%;
+    padding: 0 5px;
+    margin-top: 15px; 
+}
+.delievery{
+    border: 1px solid #008081;
+    background-color: #fff;
+    border-radius:30px;
+    color:#008081;
+    font-weight:600;
+    width:100%;
+    cursor: pointer;
+}
+.delievery-btn>button{
+    font-size:16px;
+    padding:16px;
+    background-color: teal;
+    color: #fff;
+}

@@ -1,0 +1,88 @@
+.layout-after-box {
+    display: grid;
+    grid-template-columns: 3fr 10fr 4fr;
+    grid-gap: 20px;
+    padding: 0px 1% 31px;
+    margin-top: -29px;
+    cursor: pointer;
+
+}
+
+.section-for-cateogory {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cateogory-box {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0 0 0px;
+
+}
+
+.cateogories-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #202431;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.cateogory-list-box {
+    line-height: 1.3em;
+    max-height: calc(145vh - 300px);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+.cateogory-list-box-item {
+
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .39px;
+    color: #202431;
+    /* color:crimson; */
+    padding: 6px 14px;
+    border-left: 6px solid #fff;
+    cursor: pointer;
+
+}
+
+
+.gap-boxfor-cateogory {
+
+    height: 69px;
+}
+
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    border: .3000000119px solid #ebebeb;
+    height: 50px;
+    border-radius: 30px;
+    /* padding: 16px 20px; */
+    margin-bottom: 18px;
+    cursor: pointer;
+
+}
+.search-box-title {
+    color: #a9a2a2;
+    cursor: pointer;
+}
+
+.search-box img {
+    max-width: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
